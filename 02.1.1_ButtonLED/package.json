@@ -1,0 +1,12 @@
+{
+  "name": "02.1.1_ButtonLED",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodejs index.js"
+  },
+  "dependencies": {
+    "onoff": "^5.0.1"
+  }
+}
