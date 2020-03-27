@@ -6,7 +6,7 @@ const ledPin = '17';    // define the led Pin
 const buttonPin = '18'; // define the button Pin
 
 const ledOut = new Gpio(ledPin, 'out');     // set BMC 17 to OUTPUT mode
-const buttonIn = new Gpio(buttonPin, 'in'); // set BMC 18 to INPUT mode
+const buttonIn = new Gpio(buttonPin, 'in','both'); // set BMC 18 to INPUT mode, react to 1 and 0 values
 
 const ON = 1;
 const OFF = 0
